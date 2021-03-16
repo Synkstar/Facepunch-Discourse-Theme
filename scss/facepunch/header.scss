@@ -127,7 +127,7 @@
       display: flex;
       flex-direction: row-reverse;
       flex: 1;
-      max-height: 46px;
+      //max-height: 46px;
 
       > :first-child button
       {
@@ -194,7 +194,7 @@
       a {
         background-color: rgba($lightblue, 0);
         padding: 1.2rem;
-        font-size: 0.9rem;
+        //font-size: 0.9rem;
         color: $lightblue;
         font-family: var(--heading-font-family);
         //transition: all 0.2s ease;
