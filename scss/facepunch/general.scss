@@ -16,10 +16,14 @@ body
   background-attachment: fixed;
   position: relative;
 
-  &:before 
-  {
+  &:before {
     content: " ";
-    background-color: #90afff47;
+    background: linear-gradient(
+      90deg,
+      rgba(#1f8137, 0.7) 20%,
+      rgba(#1f8137, 0.3) 60%,
+      rgba(#1f8137, 0.4) 100%
+    );
     position: fixed;
     left: 0;
     top: 0;
