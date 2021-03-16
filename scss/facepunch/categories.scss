@@ -122,6 +122,11 @@
       }
     }
 
+    // Hide uncategorized
+    &[data-category-id="1"] {
+      display: none;
+    }
+
     // Set Styling for Rust Category
     &[data-category-id="10"] {
       .category-head {
