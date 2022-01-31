@@ -9,7 +9,7 @@ body
 
 body 
 {
-  background-image: url('../../assets/bg_dark.webp');
+  background-image: url($bg_dark);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
