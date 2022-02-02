@@ -169,14 +169,16 @@ a:hover {
   justify-content: stretch
 }
 
-.category .subcategories .badge-wrapper.box {
+.category .subcategories .badge-wrapper.bullet {
   flex-grow: 1;
   margin: 2px;
   padding: 10px;
   font-family: var(--heading-font-family);
   font-weight: 600
 }
-
+.badge-category .clear-badge {
+  color: #fff;
+}
 .category .topics {
   display: flex;
   flex-direction: column;
