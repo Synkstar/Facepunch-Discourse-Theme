@@ -133,3 +133,10 @@
   min-height: 8em;
   padding: 0 1.5em;
 }
+
+@media screen and (min-width: 900px) {
+  .badge-card .badge-contents .badge-info h3 {
+    font-size: var(--font-up-1);
+  }
+
+}
