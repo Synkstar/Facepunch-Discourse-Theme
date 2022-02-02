@@ -16,6 +16,10 @@ header.d-header {
   .nav-pills {
     margin: 0;
 
+    font-size: 0.8rem;
+    background: #ebebeb;
+    border-radius: 5pt;
+
     .navigation-toggle {
       background-color: var(--secondary);
       margin-bottom: 0;
