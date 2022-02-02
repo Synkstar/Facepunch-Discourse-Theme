@@ -117,3 +117,19 @@
   background: #ebebeb;
   border-radius: 5pt;
 }
+
+.badge-card .badge-contents .badge-icon svg {
+  font-size: 42px;
+}
+
+.badge-card .badge-contents .badge-icon {
+  margin-right: 0.5em;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+}
+.badge-card .badge-contents {
+  display: flex;
+  min-height: 8em;
+  padding: 0 1.5em;
+}
