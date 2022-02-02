@@ -312,6 +312,11 @@ a:hover {
   padding: 10px
 }
 
+.topic-list .num.activity a {
+  top: -15px;
+  position: relative;
+}
+
 .archetype-regular #topic-title {
   background-color: #f7f7ff;
   border-top-left-radius: 8px;
