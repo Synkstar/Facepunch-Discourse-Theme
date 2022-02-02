@@ -86,3 +86,7 @@ a:hover {
   padding: 2pt 5pt 0 !important;
   border-radius: 5pt;
 }
+
+#topic-footer-buttons .pinned-button .reason, #topic-footer-buttons .topic-notifications-button .reason {
+  color: var(--primary-low-mid);
+}
