@@ -66,3 +66,14 @@ a:hover {
 .post-notice.new-user {
   display: none;
 }
+
+
+.suggested-topics-message, .topic-list-bottom, .page-not-found-topics, .page-not-found, .page-not-found-search {
+  background: #fff;
+  padding: 10pt;
+  border-radius: 5pt;
+}
+
+.suggested-topics-title {
+  color: var(--blend-primary-secondary-5);
+}
