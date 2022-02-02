@@ -553,7 +553,8 @@ a:hover {
   top: 0
 }
 
-.topic-list-bottom {
+.topic-list-bottom, .page-not-found-topics, .page-not-found {
   background: #fff;
   padding: 10pt;
+  border-radius: 5pt;
 }
