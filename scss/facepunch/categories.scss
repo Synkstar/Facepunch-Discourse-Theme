@@ -136,7 +136,7 @@
       .subcategories,
       .topics {
         .badge.badge-notification {
-          background-color: $rust !important;
+     //     background-color: $rust !important;
         }
       }
     }
@@ -144,13 +144,13 @@
     // Set Styling for Rust Category
     &[data-category-id="10"] {
       .category-head {
-        background-image: url($bg_cat_3);
+      //  background-image: url($bg_cat_3);
       }
 
       .subcategories,
       .topics {
         .badge.badge-notification {
-          background-color: $rust !important;
+        //  background-color: $rust !important;
         }
       }
     }
@@ -160,23 +160,23 @@
       .category-head {
         background-image: url($bg_cat_2);
         .category-description {
-          color: #c0e5ff !important;
+        //  color: #c0e5ff !important;
         }
 
-        &:before {
-          background: linear-gradient(
-            90deg,
-            rgba(#1f8137, 0.7) 20%,
-            rgba(#1f8137, 0.3) 60%,
-            rgba(#1f8137, 0.4) 100%
-          );
-        }
+        //&:before {
+        //  background: linear-gradient(
+        //    90deg,
+        //    rgba(#1f8137, 0.7) 20%,
+        //    rgba(#1f8137, 0.3) 60%,
+        //    rgba(#1f8137, 0.4) 100%
+        //  );
+        //}
       }
 
       .subcategories,
       .topics {
         .badge.badge-notification {
-          background-color: $gmod !important;
+        //  background-color: $gmod !important;
         }
       }
     }
@@ -189,7 +189,7 @@
       .subcategories,
       .topics {
         .badge.badge-notification {
-          background-color: $sandbox !important;
+        //  background-color: $sandbox !important;
         }
       }
     }
