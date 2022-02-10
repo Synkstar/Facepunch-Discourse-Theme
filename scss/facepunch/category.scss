@@ -37,28 +37,28 @@ body {
     // Sandbox Styles
     &.category-sb {
       .category-heading {
-        background-image: url($bg_cat_2);
+        background-image: url($bg_cat_1);
       }
     }
 
     // Rust Styles
     &.category-rust {
       .category-heading {
-        background-image: url($bg_cat_3);
+        background-image: url($bg_cat_2);
       }
     }
 
     // Gmod Styles
     &.category-gmod {
       .category-heading {
-        background-image: url($bg_cat_4);
+        background-image: url($bg_cat_3);
       }
     }
 
     // Meta
     &.category-meta {
       .category-heading {
-        background-image: url($bg_cat_1);
+        background-image: url($bg_cat_4);
       }
     }
 

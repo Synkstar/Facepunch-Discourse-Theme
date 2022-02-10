@@ -9,11 +9,10 @@
   "maximum_discourse_version": null,
   "assets": {
     "bg_dark": "assets/bg_dark.webp",
-    "bg_cat_1": "assets/categories/1.png",
-    "bg_cat_2": "assets/categories/2.png",
-    "bg_cat_3": "assets/categories/3.png",
-    "bg_cat_4": "assets/categories/4.png",
-    "bg_cat_5": "assets/categories/5.png"
+    "bg_cat_1": "assets/categories/1.webp",
+    "bg_cat_2": "assets/categories/2.webp",
+    "bg_cat_3": "assets/categories/3.webp",
+    "bg_cat_4": "assets/categories/4.webp"
   },
   "color_schemes": {
     "Facepunch_Default": {
