@@ -9,10 +9,10 @@
   "maximum_discourse_version": null,
   "assets": {
     "bg_dark": "assets/bg_dark.webp",
-    "bg_cat_1": "assets/categories/1.webp",
-    "bg_cat_2": "assets/categories/2.webp",
-    "bg_cat_3": "assets/categories/3.webp",
-    "bg_cat_4": "assets/categories/4.webp"
+    "bg_cat_orange": "assets/categories/orange.webp",
+    "bg_cat_blue": "assets/categories/blue.webp",
+    "bg_cat_red": "assets/categories/red.webp",
+    "bg_cat_brown": "assets/categories/brown.webp"
   },
   "color_schemes": {
     "Facepunch_Default": {

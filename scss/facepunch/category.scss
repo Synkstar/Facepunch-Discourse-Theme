@@ -34,31 +34,31 @@ body {
       }
     }
 
-    // Sandbox Styles
+    // GameDev
     &.category-sb {
       .category-heading {
-        background-image: url($bg_cat_1);
+        background-image: url($bg_cat_blue);
       }
     }
 
-    // Rust Styles
+    // Information
     &.category-rust {
       .category-heading {
-        background-image: url($bg_cat_2);
+        background-image: url($bg_cat_orange);
       }
     }
 
-    // Gmod Styles
+    // Applications
     &.category-gmod {
       .category-heading {
-        background-image: url($bg_cat_3);
+        background-image: url($bg_cat_red);
       }
     }
 
-    // Meta
+    // Moderation
     &.category-meta {
       .category-heading {
-        background-image: url($bg_cat_4);
+        background-image: url($bg_cat_brown);
       }
     }
 
