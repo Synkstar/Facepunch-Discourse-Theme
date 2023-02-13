@@ -24,7 +24,7 @@
       background-color: $darkblue;
       background-size: cover;
       background-position: center;
-      background-image: url($bg_cat_blue);
+      background-image: #0c004a;
       box-sizing: border-box;
       display: flex;
       margin: 0;
@@ -130,7 +130,8 @@
     // Moderation
     &[data-category-id="6"] {
       .category-head {
-        background-image: url($bg_cat_red);
+        // Red
+        background-image: #ff0000;
       }
 
       .subcategories,
@@ -144,7 +145,8 @@
     // Applications
     &[data-category-id="10"] {
       .category-head {
-        background-image: url($bg_cat_green);
+        // Green
+        background-image: #0c004a;
       }
 
       .subcategories,
@@ -158,7 +160,8 @@
     // Information
     &[data-category-id="5"] {
       .category-head {
-        background-image: url($bg_cat_brown);
+        // Brown
+        background-image: #0c004a;
         .category-description {
         //  color: #c0e5ff !important;
         }
@@ -184,7 +187,7 @@
     // Set Styling for Sandbox Category (Set to 7)
     &[data-category-id="7"] {
       .category-head {
-        background-image: url($bg_cat_blue);
+        background-image: #0c004a;
       }
       .subcategories,
       .topics {

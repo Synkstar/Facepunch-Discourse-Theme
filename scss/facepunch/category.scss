@@ -37,28 +37,32 @@ body {
     // GameDev
     &.category-sb {
       .category-heading {
-        background-image: url($bg_cat_blue);
+        // Purple
+        background-image: #8a2be2; 
       }
     }
 
     // Information
     &.category-rust {
       .category-heading {
-        background-image: url($bg_cat_orange);
+        // Red
+        background-image: #ff0000;
       }
     }
 
     // Applications
     &.category-gmod {
       .category-heading {
-        background-image: url($bg_cat_red);
+        // Blue
+        background-image: #0000ff;
       }
     }
 
     // Moderation
     &.category-meta {
       .category-heading {
-        background-image: url($bg_cat_brown);
+        // Gold
+        background-image: #ffd700;
       }
     }
 
