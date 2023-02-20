@@ -8,15 +8,15 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
-    "rust-background": "assets/rust.png",
-    "gmod-background": "assets/gmod.png",
-    "general-background": "assets/general.png",
-    "csgo-background": "assets/csgo.png",
-    "css-background": "assets/css.png",
-    "introductions-background": "assets/introductions.png",
-    "unturned-background": "assets/unturned.png",
-    "insurgency-background": "assets/insurgency.png",
-    "tf2-background": "assets/tf2.png"
+    "rust_background": "assets/rust.png",
+    "gmod_background": "assets/gmod.png",
+    "general_background": "assets/general.png",
+    "csgo_background": "assets/csgo.png",
+    "css_background": "assets/css.png",
+    "introductions_background": "assets/introductions.png",
+    "unturned_background": "assets/unturned.png",
+    "insurgency_background": "assets/insurgency.png",
+    "tf2_background": "assets/tf2.png"
   },
   "color_schemes": {
     "lbg_Default": {
