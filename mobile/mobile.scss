@@ -191,7 +191,7 @@ a:hover {
 
 .category .topics .featured-topic a {
   padding: 5px 8px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--secondary);
   flex-shrink: 0
 }
 
@@ -199,7 +199,7 @@ a:hover {
   flex-grow: 1;
   font-size: 12px;
   white-space: nowrap;
-  color: rgba(255, 255, 255, 0.8)
+  color: var(--primary);
 }
 
 .category .topics .featured-topic a.badge.badge-notification.new-topic {
