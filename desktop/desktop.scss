@@ -1,20 +1,20 @@
 // Default variables
-@import "facepunch/variables";
+@import "lbg/variables";
 
 // General Styles (Body etc)
-@import "facepunch/general";
-@import "facepunch/form";
-@import "facepunch/header";
-@import "facepunch/footer";
+@import "lbg/general";
+@import "lbg/form";
+@import "lbg/header";
+@import "lbg/footer";
 
 // Views
-@import "facepunch/badges"; // Search duh
-@import "facepunch/categories"; // Main Homepage View
-@import "facepunch/category"; // Individual Category View
-@import "facepunch/forum"; // Forum View
-@import "facepunch/post"; // Individual Post View
-@import "facepunch/profile"; // User Profile
-@import "facepunch/search"; // Search duh
+@import "lbg/badges"; // Search duh
+@import "lbg/categories"; // Main Homepage View
+@import "lbg/category"; // Individual Category View
+@import "lbg/forum"; // Forum View
+@import "lbg/post"; // Individual Post View
+@import "lbg/profile"; // User Profile
+@import "lbg/search"; // Search duh
 
 @media screen and (min-width: 925px) {
   .archetype-regular {

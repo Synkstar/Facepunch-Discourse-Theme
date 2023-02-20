@@ -1,3 +1,5 @@
+// Include assets
+@import url("{$rust-background}");
 body {
   &.category 
   {
@@ -34,35 +36,66 @@ body {
       }
     }
 
-    // GameDev
-    &.category-sb {
-      .category-heading {
-        // Purple
-        background-image: #8a2be2; 
-      }
-    }
-
-    // Information
+    // Rust Styles
     &.category-rust {
       .category-heading {
-        // Red
-        background-image: #ff0000;
+        background-image: url("{$rust-background}");
       }
     }
 
-    // Applications
+    // Gmod Styles
     &.category-gmod {
       .category-heading {
-        // Blue
-        background-image: #0000ff;
+        background-image: url("{$gmod-background}");
       }
     }
 
-    // Moderation
-    &.category-meta {
+    // General 
+    &.category-general {
       .category-heading {
-        // Gold
-        background-image: #ffd700;
+        background-image: url("{$general-background}");
+      }
+    }
+
+    // Introduction 
+    &.category-introductions {
+      .category-heading {
+        background-image: url("{$introductions-background}");
+      }
+    }
+
+    // Insurgency
+    &.category-insurgency {
+      .category-heading {
+        background-image: url("{$insurgency-background}");
+      }
+    }
+
+    // TF2
+    &.category-tf2 {
+      .category-heading {
+        background-image: url("{$tf2-background}");
+      }
+    }
+
+    // CSS
+    &.category-css {
+      .category-heading {
+        background-image: url("{$css-background}");
+      }
+    }
+
+    // CSGO
+    &.category-csgo {
+      .category-heading {
+        background-image: url("{$csgo-background}");
+      }
+    }
+
+    // Unturned
+    &.category-unturned {
+      .category-heading {
+        background-image: url("{$unturned-background}");
       }
     }
 
@@ -74,7 +107,7 @@ body {
       overflow: hidden;
       background-size: cover;
       background-position: center;
-
+      background-color: var(--category-color);
       &:before {
         position: absolute;
         left: 0;
@@ -82,12 +115,7 @@ body {
         width: 100%;
         height: 100%;
         content: " ";
-        background: linear-gradient(
-          90deg,
-          rgba($darkblue, 0.9) 20%,
-          rgba($darkblue, 0.5) 60%,
-          rgba($darkblue, 0.7) 100%
-        );
+        background-color: var(--category-color);
       }
 
       .category-logo,
