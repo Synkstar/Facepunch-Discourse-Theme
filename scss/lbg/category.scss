@@ -35,71 +35,7 @@ body {
         border-radius: 0 0 8px 8px;
       }
     }
-
-    // Rust Styles
-    &.category-rust {
-      .category-heading {
-        //background-image: url("{$rust-background}");
-        background-color: red;
-      }
-    }
-
-    // Gmod Styles
-    &.category-gmod {
-      .category-heading {
-        background-image: url("{$gmod-background}");
-      }
-    }
-
-    // General 
-    &.category-general {
-      .category-heading {
-        background-image: url("{$general-background}");
-      }
-    }
-
-    // Introduction 
-    &.category-introductions {
-      .category-heading {
-        background-image: url("{$introductions-background}");
-      }
-    }
-
-    // Insurgency
-    &.category-insurgency {
-      .category-heading {
-        background-image: url("{$insurgency-background}");
-      }
-    }
-
-    // TF2
-    &.category-tf2 {
-      .category-heading {
-        background-image: url("{$tf2-background}");
-      }
-    }
-
-    // CSS
-    &.category-css {
-      .category-heading {
-        background-image: url("{$css-background}");
-      }
-    }
-
-    // CSGO
-    &.category-csgo {
-      .category-heading {
-        background-image: url("{$csgo-background}");
-      }
-    }
-
-    // Unturned
-    &.category-unturned {
-      .category-heading {
-        background-image: url("{$unturned-background}");
-      }
-    }
-
+    
     // Category Header (With Logo).
     .category-heading {
       padding: 2rem;
