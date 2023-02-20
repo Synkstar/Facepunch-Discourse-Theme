@@ -296,7 +296,7 @@
 
     // Sub Categories Section
     .subcategories {
-      background-color: #2e3490;
+      background-color: var(--);
       display: flex;
       flex-direction: column;
       grid-area: 2 / 1 / 3 / 2;
@@ -336,7 +336,7 @@
 
           span.badge-category {
             align-items: center;
-            background-color: $lightestblue;
+            background-color: #171928;
             border-radius: $radius-half;
             display: flex;
             padding: 0.25rem;
@@ -382,7 +382,7 @@
 
     // Topics Section
     .topics {
-      background-color: #2e3490;
+      background-color: var(--secondary);
       box-sizing: border-box;
       grid-area: 2 / 2 / 3 / 3;
       padding: 1rem;
@@ -392,6 +392,7 @@
 
       > .featured-topic 
       {
+        background-color: #171928;
         display: flex;
         flex-direction: row;
         font-size: 14px;
@@ -451,7 +452,7 @@
           align-items: center;
           background-color: $lightestblue;
           box-sizing: border-box;
-          color: #222222;
+          color: #ffffff;
           display: block;
           font-weight: bold;
           padding: 0.25rem 0.5rem;
