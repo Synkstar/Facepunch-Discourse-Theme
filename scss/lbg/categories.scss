@@ -390,9 +390,9 @@
       width: 100%;
       max-width: 450px;
 
-      .featured-topic 
+      > .featured-topic 
       {
-        background-color: #171928;
+        color: #171928;
         display: flex;
         flex-direction: row;
         font-size: 14px;
