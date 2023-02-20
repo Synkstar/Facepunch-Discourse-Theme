@@ -26,7 +26,7 @@
       background-color: $darkblue;
       background-size: cover;
       background-position: center;
-      background-image: url($general_background);
+      background-image: url(../images/categories/general.png);
       box-sizing: border-box;
       display: flex;
       margin: 0;
@@ -133,7 +133,7 @@
     &[data-category-id="10"] {
       .category-head {
         // Green
-        background-image: url($general_background);
+        background-image: url(../images/categories/general.png)
       }
 
       .subcategories,
@@ -148,7 +148,7 @@
     &[data-category-id="26"] {
       .category-head {
         // Blue
-        background-image: url($general_background);
+        background-image: url(../images/categories/general.png);
       }
 
       .subcategories,
@@ -163,7 +163,7 @@
     &[data-category-id="2"] {
       .category-head {
         // Purple
-        background-image: url($general_background);
+        background-image: url(../images/categories/general.png);
       }
 
       .subcategories,
@@ -178,7 +178,7 @@
     &[data-category-id="4"] {
       .category-head {
         // Orange
-        background-image: url($general_background);
+        background-image: url(../images/categories/general.png);
       }
 
       .subcategories,
@@ -193,7 +193,7 @@
     &[data-category-id="5"] {
       .category-head {
         // Red
-        background-image: url($gmod_background);
+        background-image: url(../images/categories/general.png);
       }
 
       .subcategories,
@@ -208,7 +208,7 @@
     &[data-category-id="6"] {
       .category-head {
         // Rust
-        background-image: url($rust_background);
+        background-image: url(../images/categories/rust.png);
       }
 
       .subcategories,
@@ -223,7 +223,7 @@
     &[data-category-id="7"] {
       .category-head {
         // CSGO
-        background-image: url($csgo_background);
+        background-image: url(../images/categories/csgo.png);
       }
 
       .subcategories,
@@ -238,7 +238,7 @@
     &[data-category-id="8"] {
       .category-head {
         // CSS
-        background-image: url($css_background);
+        background-image: url(../images/categories/css.png);
       }
 
       .subcategories,
@@ -253,7 +253,7 @@
     &[data-category-id="9"] {
       .category-head {
         // TF2
-        background-image: url($tf2_background);
+        background-image: url(../images/categories/tf2.png);
       }
 
       .subcategories,
@@ -268,7 +268,7 @@
     &[data-category-id="27"] {
       .category-head {
         // Insurgency
-        background-image: url($insurgency_background);
+        background-image: url(../images/categories/insurgency.png);
       }
 
       .subcategories,
@@ -283,7 +283,7 @@
     &[data-category-id="31"] {
       .category-head {
         // Unturned
-        background-image: url($unturned_background);
+        background-image: url(../images/categories/unturned.png);
       }
 
       .subcategories,
