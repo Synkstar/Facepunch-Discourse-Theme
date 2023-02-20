@@ -68,7 +68,7 @@ a:hover {
 
 
 .suggested-topics-message, .topic-list-bottom, .page-not-found-topics, .page-not-found, .page-not-found-search {
-  background: #fff;
+  background: var(--secondary);
   padding: 10pt;
   border-radius: 5pt;
 }
@@ -80,7 +80,7 @@ a:hover {
 
 .select-kit.dropdown-select-box.period-chooser .period-chooser-header {
   color: var(--blend-primary-secondary-5);
-  background: #fff !important;
+  background: var(--secondary) !important;
   margin-bottom: 10pt;
   padding: 2pt 5pt 0 !important;
   border-radius: 5pt;
@@ -99,7 +99,7 @@ a:hover {
 }
 
 .user-content-wrapper, .user-main {
-  background: #fff;
+  background: var(--secondary);
   padding: 20pt;
   border-radius: 10pt;
 }

@@ -2,7 +2,7 @@ $darkblue: #171928;
 $lightblue: #888cb1;
 $brightblue: #03a9f4;
 $fpred: #ec1c24;
-$offwhite: #f7f7ff;
+$offwhite: var(--secondary);
 $lightestblue: #f3f4ff;
 $lightestblue-hover: darken($lightestblue, 2%);
 

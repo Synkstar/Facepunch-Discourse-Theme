@@ -87,9 +87,9 @@
   }
 
   .topic-navigation {
-    color: #fff;
-    --primary-med-or-secondary-med: #fff;
-    --tertiary-low-or-tertiary-high: #fff;
+    color: var(--secondary);;
+    --primary-med-or-secondary-med: var(--secondary);;
+    --tertiary-low-or-tertiary-high: var(--secondary);;
     text-shadow: 0px 0px 20px black;
   }
 }

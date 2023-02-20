@@ -115,7 +115,7 @@
           background-color: rgba( $fpred, 0.9 );
           border-radius: 2px;
           padding: 0.8rem 1rem;
-          color: #fff;
+          color: var(--secondary);;
           font-size: 0.9rem;
           font-weight: bold;
         }
@@ -285,7 +285,7 @@
 
     // Topics Section
     .topics {
-      background-color: #fff;
+      background-color: var(--secondary);;
       box-sizing: border-box;
       grid-area: 2 / 2 / 3 / 3;
       padding: 1rem;

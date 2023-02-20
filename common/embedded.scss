@@ -4,11 +4,11 @@ body {
 
 html.sbox {
   background-color: #317ab3;
-  color: #fff;
+  color: var(--secondary);;
   font-size: 13px;
 
   --tertiary: #2b628c;
-  --primary-medium: #fff;
+  --primary-medium: var(--secondary);;
   --primary-low: #4894d0;
   --primary-low-mid: #7cc4ff;
 
@@ -30,7 +30,7 @@ html.sbox {
   }
 
   .username a {
-    color: #fff;
+    color: var(--secondary);;
 
     &.staff {
       background-color: transparent;

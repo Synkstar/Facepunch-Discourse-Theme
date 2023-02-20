@@ -173,7 +173,7 @@ a:hover {
   font-weight: 600
 }
 .badge-category .clear-badge {
-  color: #fff;
+  color: var(--secondary);;
 }
 .category .topics {
   display: flex;
@@ -351,7 +351,7 @@ a:hover {
 }
 
 .container.posts article.onscreen-post {
-  background-color: #fff;
+  background-color: var(--secondary);;
   border-radius: 8px;
   margin-bottom: 1rem
 }
@@ -550,7 +550,7 @@ a:hover {
 }
 
 .suggested-topics-message, .topic-list-bottom, .page-not-found-topics, .page-not-found, .page-not-found-search {
-  background: #fff;
+  background: var(--secondary);;
   padding: 10pt;
   border-radius: 5pt;
 }
