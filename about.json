@@ -14,9 +14,8 @@
     "csgo_background": "assets/csgo.webp",
     "css_background": "assets/css.webp",
     "introductions_background": "assets/introductions.webp",
-    "unturned_background": "assets/unturned.webp",
-    "insurgency_background": "assets/insurgency.webp",
-    "tf2_background": "assets/tf2.webp"
+    "tf2_background": "assets/tf2.webp",
+    "minecraft_background" : "assets/minecraft.webp"
   },
   "color_schemes": {
     "lbg_Default": {

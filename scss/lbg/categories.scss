@@ -135,13 +135,6 @@
         // Green
         background-image: url($general_background)
       }
-
-      .subcategories,
-      .topics {
-        .badge.badge-notification {
-        //  background-color: $rust !important;
-        }
-      }
     }
 
     // Introductions
@@ -149,13 +142,6 @@
       .category-head {
         // Blue
         background-image: url($general_background);
-      }
-
-      .subcategories,
-      .topics {
-        .badge.badge-notification {
-        //  background-color: $blue !important;
-        }
       }
     }
 
@@ -165,13 +151,6 @@
         // Purple
         background-image: url($general_background);
       }
-
-      .subcategories,
-      .topics {
-        .badge.badge-notification {
-        //  background-color: $purple !important;
-        }
-      }
     }
 
     // General
@@ -179,13 +158,6 @@
       .category-head {
         // Orange
         background-image: url($general_background);
-      }
-
-      .subcategories,
-      .topics {
-        .badge.badge-notification {
-        //  background-color: $orange !important;
-        }
       }
     }
 
@@ -195,13 +167,6 @@
         // Red
         background-image: url($gmod_background);
       }
-
-      .subcategories,
-      .topics {
-        .badge.badge-notification {
-        //  background-color: $red !important;
-        }
-      }
     }
 
     // Rust
@@ -209,13 +174,6 @@
       .category-head {
         // Rust
         background-image: url($rust_background);
-      }
-
-      .subcategories,
-      .topics {
-        .badge.badge-notification {
-        //  background-color: $rust !important;
-        }
       }
     }
 
@@ -225,13 +183,6 @@
         // CSGO
         background-image: url($csgo_background);
       }
-
-      .subcategories,
-      .topics {
-        .badge.badge-notification {
-        //  background-color: $csgo !important;
-        }
-      }
     }
 
     // CSS  
@@ -239,13 +190,6 @@
       .category-head {
         // CSS
         background-image: url($css_background);
-      }
-
-      .subcategories,
-      .topics {
-        .badge.badge-notification {
-        //  background-color: $css !important;
-        }
       }
     }
 
@@ -255,42 +199,13 @@
         // TF2
         background-image: url($tf2_background);
       }
-
-      .subcategories,
-      .topics {
-        .badge.badge-notification {
-        //  background-color: $tf2 !important;
-        }
-      }
     }
 
-    // Insurgency 
-    &[data-category-id="27"] {
+    // Minecraft 
+    &[data-category-id="38"] {
       .category-head {
-        // Insurgency
-        background-image: url($insurgency_background);
-      }
-
-      .subcategories,
-      .topics {
-        .badge.badge-notification {
-        //  background-color: $insurgency !important;
-        }
-      }
-    }
-
-    // Unturned
-    &[data-category-id="31"] {
-      .category-head {
-        // Unturned
-        background-image: url($unturned_background);
-      }
-
-      .subcategories,
-      .topics {
-        .badge.badge-notification {
-        //  background-color: $unturned !important;
-        }
+        // Minecraft 
+        background-image: url($minecraft_background);
       }
     }
 
