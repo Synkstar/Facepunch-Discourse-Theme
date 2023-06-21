@@ -15,7 +15,8 @@
     "css_background": "assets/css.webp",
     "introductions_background": "assets/introductions.webp",
     "tf2_background": "assets/tf2.webp",
-    "minecraft_background" : "assets/minecraft.webp"
+    "minecraft_background" : "assets/minecraft.webp",
+    "insurgency_background" : "assets/insurgency.webp"
   },
   "color_schemes": {
     "lbg_Default": {
